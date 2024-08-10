@@ -2,7 +2,7 @@
 
 This is a simple React-based application for managing and displaying feedback from users. The application includes a homepage, a feedback page where users can view and interact with feedback, and an about page that provides information about the application.
 
-### Table of Contents
+## Table of Contents
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -12,58 +12,68 @@ This is a simple React-based application for managing and displaying feedback fr
 - [Contributing](#contributing)
 - [License](#license)
 
-### Features
+## Features
 
 - **Responsive Design:** The app is responsive and works on both desktop and mobile devices.
 - **Routing:** The app uses React Router for client-side routing between pages.
 - **Component-based Architecture:** The app is built with reusable React components.
 - **Feedback Management:** Users can view and interact with feedback on the feedback page.
 
-### Technologies Used
+## Technologies Used
 
 - **React:** A JavaScript library for building user interfaces.
 - **React Router:** A library for handling routing in React applications.
 - **CSS:** Custom CSS for styling the components.
 
-### Getting Started
+## Getting Started
 
 To get a local copy of the project up and running, follow these steps:
 
-### Prerequisites
+## Prerequisites
 
 - **Node.js** (v14 or later)
 - **npm** (v6 or later) or **yarn**
 
 ### Installation
 
-#### 1. Clone the repository:
+### 1. Clone the repository:
 
 ```bash
    git clone : https://github.com/Areeba-Farhan1234/Customer-Feedback-System.git
 
    ```
 
-#### 2. Navigate to the project directory:
+### 2. Navigate to the project directory:
 
 cd react-feedback-system
 
-#### 3. Install dependencies:
+### 3. Install dependencies:
 
+```bash
 npm install
 
-#### or
+ ```
 
+### or
+
+```bash
 yarn install
 
-#### 4. Start the development server:
+```
 
+### 4. Start the development server:
+
+```bash
 npm start
+```
 
 #### or
 
+```bash
 yarn start
+```
 
-#### Explanation:
+## Explanation:
 
 - **Features:** Highlights the key functionalities of the app.
 - **Technologies Used:** Lists the main technologies and libraries used.
