@@ -14,9 +14,13 @@ export default function Header() {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/shop">Shop</NavLink>
+            <NavLink to="/feedbacks">Feedbacks</NavLink>
           </li>
           <li>
+            <NavLink to="/about">About</NavLink>
+          </li>
+
+          {/* <li>
             <NavLink to="/blog">Blog</NavLink>
           </li>
           <li>
@@ -26,17 +30,23 @@ export default function Header() {
             <NavLink to="/cart">
               <i className="far fa-shopping-bag"></i>
             </NavLink>
-          </li>
-          <NavLink to="#" id="close">
+          </li> */}
+          {/* <NavLink to="#" id="close">
             <i className="far fa-times"></i>
-          </NavLink>
+          </NavLink> */}
         </ul>
       </div>
-      <div id="mobile">
-        <NavLink to="/cart">
+      <div id="mobile" className="gap-2">
+        <NavLink to="/" className="text-decoration-none">
+          Home
+        </NavLink>
+        <NavLink to="/feedbacks" className="text-decoration-none">
+          Feedbacks
+        </NavLink>
+        {/* <NavLink to="/cart">
           <i className="far fa-shopping-bag"></i>
         </NavLink>
-        <i id="bar" className="fas fa-outdent"></i>
+        <i id="bar" className="fas fa-outdent"></i> */}
       </div>
     </section>
   );
